@@ -1,9 +1,7 @@
 {
   "name": "Local Pterodactyl VPS",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-  "features": {
-    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
-  },
+  "updateContentCommand": "apt-get update && apt-get install -y docker.io",
   "forwardPorts": [],
   "customizations": {
     "vscode": {
