@@ -1,6 +1,6 @@
 {
   "name": "Local Pterodactyl VPS",
-  "image": "://microsoft.com",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
   "forwardPorts": [],
   "customizations": {
     "vscode": {
