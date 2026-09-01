@@ -1,6 +1,9 @@
 {
   "name": "Local Pterodactyl VPS",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
   "forwardPorts": [],
   "customizations": {
     "vscode": {
