@@ -1,12 +1,12 @@
 {
-    "name": "Local Pterodactyl VPS",
-    "image": "://microsoft.com",
-    "forwardPorts":,
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "ms-vscode-remote.remote-containers"
-            ]
-        }
+  "name": "Local Pterodactyl VPS",
+  "image": "://microsoft.com",
+  "forwardPorts": [],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode-remote.remote-containers"
+      ]
     }
+  }
 }
